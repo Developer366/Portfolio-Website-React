@@ -6,10 +6,11 @@ import classes from "./Footer.module.css";
 export default function Footer() {
   return (
     <div className={classes.Footer}>
-        <p>Kamil Peza March &copy; 2022</p>
-        <a href="https://github.com/Developer366">Github<AiFillGithub /></a>
-        <a href="https://www.linkedin.com/in/kamil-peza/">LinkedIn<AiFillLinkedin /></a>
-        <p>Gmail<AiTwotoneMail /></p>
+        <p>Kamil Peza</p>
+        <p>March &copy; 2022</p>
+        <a href="https://github.com/Developer366" target="_blank"><AiFillGithub />Github</a> <br/><br/>
+        <a href="https://www.linkedin.com/in/kamil-peza/" target="_blank"><AiFillLinkedin />LinkedIn</a><br/><br/>
+        <a href="mailto:peza361@gmail.com" target="_blank"><AiTwotoneMail />Gmail: <br/>peza361@gmail.com</a>
     </div>
   )
 }

@@ -2,5 +2,13 @@
     color:blue;
     background-color: aquamarine;
     text-align: center;
-    padding: 10%;
+    padding: 3%;
+}
+
+p {
+    font-size: 25px;
+}
+
+a {
+    font-size: 25px;
 }

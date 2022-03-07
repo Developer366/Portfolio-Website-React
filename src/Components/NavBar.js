@@ -9,6 +9,7 @@ import ErrorPage from "../Pages/ErrorPage.js";
 
 // const About = React.lazy(() => import("../Pages/About.js"));
 const Portfolio = React.lazy(() => import("../Pages/Portfolio"));
+const AboutMe = React.lazy(() => import("../Pages/AboutMe"));
 // const Reps = React.lazy(() => import("../Pages/Representatives/Reps.js"));
 // const RepInfo = React.lazy(() => import("../Pages/Representatives/RepInfo.js"));
 // const RepsTransactionList = React.lazy(() =>
@@ -55,23 +56,20 @@ export default function NavBar() {
 	return (
 		<div>
 			<Suspense fallback={<p>Loading...</p>}>
-				{/* <nav className={classes.NavBar}> */}
-					<button onClick={toggleNav} className={classes.btn}><ReorderIcon /></button>
+				<button onClick={toggleNav} className={classes.btn}><ReorderIcon /></button>
 
-					{(toggleMenu || screenWidth > 600) && (// whether button it toggled or links dissapear
-						<ul className={classes.List}>
+				{(toggleMenu || screenWidth > 600) && (// whether button it toggled or links dissapear
 
-							<Link to="/" className={classes.Link}>My Projects</Link>
-							<Link to="/AboutMe" className={classes.Link}>About Me</Link>
-							<Link to="/ContactMe" className={classes.Link}>Contact Me</Link>
-
-						</ul>
-					)}
-				{/* </nav> */}
+					<ul className={classes.List}>
+						<Link to="/" className={classes.Link}>My Projects</Link>
+						<Link to="/AboutMe" className={classes.Link}>About Me</Link>
+						{/* <Link to="/ContactMe" className={classes.Link}>Contact Me</Link> */}
+					</ul>
+				)}
 
 				<Routes>
 					<Route path="/" element={<Portfolio />} />
-
+					<Route path="/AboutMe" element={<AboutMe />} />
 					<Route path="*" element={<ErrorPage />} />
 				</Routes>
 
