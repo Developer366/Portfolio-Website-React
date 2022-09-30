@@ -1,14 +1,13 @@
 /* the navbar container*/
 .NavBar {
-	background-color: #101010;
+	/* background-color: #101010; */
+	/* background: linear-gradient(45deg, rgb(156, 14, 156), rgb(66, 66, 231)); */
+	background-color: black;
+
 	text-align: center;
-	
-	/* position:fixed; */
-	/* margin: 5px 30px; */
-	/* height: 60px; */
-	width: 100%;
-	/* padding: 30px; */
 	overflow: hidden;
+	/* height: 90px; */
+	/* padding: 10px; */
 }
 /* div {
 	background: linear-gradient(45deg, rgb(156, 14, 156), rgb(66, 66, 231));
@@ -16,7 +15,7 @@
 /* unordered list containing Links  */
 .List {
 	/* list-style-type: none; */
-    background: linear-gradient(45deg, rgb(156, 14, 156), rgb(66, 66, 231));
+    /* background: linear-gradient(45deg, rgb(156, 14, 156), rgb(66, 66, 231)); */
     height: 100%;
     display: flex;
     justify-content: center;

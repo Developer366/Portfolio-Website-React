@@ -6,21 +6,11 @@ import todoProject from '../Images/TodoFlaskApp.PNG';
 import QuizProject from '../Images/QuizWorld.PNG';
 import Headshot from '../Images/headshot_whitebackground.jpeg';
 
-import classes from "./Portfolio.module.css";
-
+import classes from "./WebApps.module.css";
 
 export default function Portfolio() {
   return (
     <div className={classes['grid-container']}>
-
-        <div className={classes['grid-item']}>
-          {/* <img src="https://www.w3schools.com/howto/img_avatar.png"></img> */}
-          <img className = {classes.Headshot}src={Headshot}></img>
-        </div>
-
-        <div className={classes['grid-item']}>
-          <p>Hello, my name is Kamil Peza. I live in Queens. I graduated From Saint John's University with a Bachelors of Science in Computer Science.  This is my portfolio website. Here are some of my projects.</p>
-        </div>
 
         <a href="http://moviereview-env.eba-rq2nsua3.us-east-1.elasticbeanstalk.com/" target="_blank">
           <div className={classes['grid-item']}>
@@ -50,7 +40,6 @@ export default function Portfolio() {
           </div>
         </a>
 
-       
     </div>
   )
 }
