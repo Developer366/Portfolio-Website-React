@@ -1,3 +1,8 @@
+.comp {
+    background-color:#0e8ef7;
+    padding-top: 30px;
+}
+
 .grid-container {
     padding-top: 40px;
     padding-bottom:40px;
@@ -10,7 +15,7 @@
     /* grid-template-columns: repeat(5, 1fr 2fr); */
     /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
     grid-template-columns: repeat(2, 1fr);
-    background-color: #2196F3;
+    /* background-color: #2196F3; */
     /* padding: 10px; */
     justify-content: center;
 }

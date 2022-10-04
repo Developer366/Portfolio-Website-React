@@ -1,11 +1,12 @@
 import React, { Suspense, useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ReorderIcon from "@material-ui/icons/Reorder";
+import { HashLink } from 'react-router-hash-link';
 
 import classes from "./NavBar.module.css";
 import ErrorPage from "../Pages/ErrorPage.js";
 import Footer from "./Footer.js";
-import Home from '/Home.js';
+import Home from '../Pages/Home.js';
 // import Portfolio from "../Pages/Portfolio.js";
 
 // const About = React.lazy(() => import("../Pages/About.js"));
@@ -64,21 +65,23 @@ export default function NavBar() {
 				{(toggleMenu || screenWidth > 600) && (// whether button it toggled or links dissapear
 					
 						<ul className={classes.List}>
-							<Link to="/" className={classes.Link}>Intro</Link>
-							<Link to="/AboutMe" className={classes.Link}>Web Apps</Link>
-							<Link to="/AboutMe" className={classes.Link}>Data Analysis</Link>
-							<Link to="/AboutMe" className={classes.Link}>About Me</Link>
-							{/* <Link to="/ContactMe" className={classes.Link}>Contact Me</Link> */}
+				
+							<HashLink smooth to="/#Intro" className={classes.Link}>Intro</HashLink>
+							<HashLink smooth to="/#DataAnalysis" className={classes.Link}>Data Analysis Projects</HashLink>
+							<HashLink smooth to="/#WebApps" className={classes.Link}>Web Applications</HashLink>
+							<HashLink smooth to="/#AboutMe" className={classes.Link}>About Me</HashLink>
+
 						</ul>
 				)}
 			</nav>  
 			
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/AboutMe" element={<AboutMe />} />
-					<Route path="/Footer" element={<Footer />} />
-					<Route path="/AboutMe" element={<AboutMe />} />
 					<Route path="*" element={<ErrorPage />} />
+					{/* <Route path="/AboutMe" element={<AboutMe />} />
+					<Route path="/Footer" element={<Footer />} />
+					<Route path="/AboutMe" element={<AboutMe />} /> */}
+					
 				</Routes>
 
 			</Suspense>

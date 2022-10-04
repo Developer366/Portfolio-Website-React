@@ -4,7 +4,8 @@ import classes from "./AboutMe.module.css";
 
 export default function AboutMe() {
   return (
-    <div>
+    <div id="AboutMe" className={classes.comp}>
+        <h1>About Me Section</h1>
         <div className={classes['grid-container']}>
             <div className={classes['grid-item']}>
                 <h1>General Interests & Hobbies</h1>
