@@ -5,6 +5,7 @@ import ReorderIcon from "@material-ui/icons/Reorder";
 import classes from "./NavBar.module.css";
 import ErrorPage from "../Pages/ErrorPage.js";
 import Footer from "./Footer.js";
+import Home from '/Home.js';
 // import Portfolio from "../Pages/Portfolio.js";
 
 // const About = React.lazy(() => import("../Pages/About.js"));
@@ -63,7 +64,7 @@ export default function NavBar() {
 				{(toggleMenu || screenWidth > 600) && (// whether button it toggled or links dissapear
 					
 						<ul className={classes.List}>
-							<Link to="/Footer" className={classes.Link}>Intro</Link>
+							<Link to="/" className={classes.Link}>Intro</Link>
 							<Link to="/AboutMe" className={classes.Link}>Web Apps</Link>
 							<Link to="/AboutMe" className={classes.Link}>Data Analysis</Link>
 							<Link to="/AboutMe" className={classes.Link}>About Me</Link>
@@ -73,7 +74,7 @@ export default function NavBar() {
 			</nav>  
 			
 				<Routes>
-					<Route path="/" element={<Portfolio />} />
+					<Route path="/" element={<Home />} />
 					<Route path="/AboutMe" element={<AboutMe />} />
 					<Route path="/Footer" element={<Footer />} />
 					<Route path="/AboutMe" element={<AboutMe />} />
