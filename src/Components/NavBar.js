@@ -67,8 +67,8 @@ export default function NavBar() {
 						<ul className={classes.List}>
 				
 							<HashLink smooth to="/#Intro" className={classes.Link}>Intro</HashLink>
-							<HashLink smooth to="/#DataAnalysis" className={classes.Link}>Data Analysis Projects</HashLink>
 							<HashLink smooth to="/#WebApps" className={classes.Link}>Web Applications</HashLink>
+							<HashLink smooth to="/#DA" className={classes.Link}>Data Analysis Projects</HashLink>
 							<HashLink smooth to="/#AboutMe" className={classes.Link}>About Me</HashLink>
 
 						</ul>

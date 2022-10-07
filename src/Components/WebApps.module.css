@@ -1,7 +1,7 @@
 .comp {
     background-color:rgb(23, 22, 22);
     /* margin:auto; */
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .grid-container {
@@ -48,10 +48,12 @@ a {
 h1 {
    color: white;
     padding-top:40px;
+    font-size: 400px;
 }
 
 .pname {
     color:rgb(0, 0, 0);
+    font-size: 1.5rem;
 }
 
 

@@ -1,26 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc44b00a.css",
-    "main.js": "/static/js/main.c9850c92.js",
-    "static/css/354.56d84fdf.chunk.css": "/static/css/354.56d84fdf.chunk.css",
-    "static/js/354.9cd47c8a.chunk.js": "/static/js/354.9cd47c8a.chunk.js",
-    "static/css/686.cce7c7eb.chunk.css": "/static/css/686.cce7c7eb.chunk.css",
-    "static/js/686.9fda66f0.chunk.js": "/static/js/686.9fda66f0.chunk.js",
+    "main.css": "/static/css/main.53c71165.css",
+    "main.js": "/static/js/main.e84e69ee.js",
     "static/media/MovieReviewWebsite.png": "/static/media/MovieReviewWebsite.088d5e4f4e40cbabad74.png",
     "static/media/PoliticianStockTrades.PNG": "/static/media/PoliticianStockTrades.43bb308bf09b015d49f1.PNG",
     "static/media/headshot_whitebackground.jpeg": "/static/media/headshot_whitebackground.f3fd3869dc0c6aee426b.jpeg",
+    "static/media/webScrape-PowerBi.PNG": "/static/media/webScrape-PowerBi.283715a4f8e626eea71d.PNG",
+    "static/media/F500-tableau.PNG": "/static/media/F500-tableau.20429b663847e5494746.PNG",
     "static/media/TodoFlaskApp.PNG": "/static/media/TodoFlaskApp.8a5712998e6f81266b40.PNG",
     "static/media/QuizWorld.PNG": "/static/media/QuizWorld.bab0fd1bba13bf8082f6.PNG",
     "index.html": "/index.html",
-    "main.dc44b00a.css.map": "/static/css/main.dc44b00a.css.map",
-    "main.c9850c92.js.map": "/static/js/main.c9850c92.js.map",
-    "354.56d84fdf.chunk.css.map": "/static/css/354.56d84fdf.chunk.css.map",
-    "354.9cd47c8a.chunk.js.map": "/static/js/354.9cd47c8a.chunk.js.map",
-    "686.cce7c7eb.chunk.css.map": "/static/css/686.cce7c7eb.chunk.css.map",
-    "686.9fda66f0.chunk.js.map": "/static/js/686.9fda66f0.chunk.js.map"
+    "main.53c71165.css.map": "/static/css/main.53c71165.css.map",
+    "main.e84e69ee.js.map": "/static/js/main.e84e69ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc44b00a.css",
-    "static/js/main.c9850c92.js"
+    "static/css/main.53c71165.css",
+    "static/js/main.e84e69ee.js"
   ]
 }
