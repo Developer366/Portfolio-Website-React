@@ -1,2 +1,5 @@
 (having images in your react js project)
 https://www.youtube.com/watch?v=MRbqLWAwqko
+
+(deploy app to a web hosting service - namecheap/ hostinger)
+https://stackoverflow.com/questions/68963307/how-to-deploy-create-react-app-to-hostinger
